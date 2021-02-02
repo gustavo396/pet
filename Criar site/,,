@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Minas PET - PET 7</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<script src="js/senha.js"></script>
+
+<body>
+  <div id="fonte">
+<header>
+  <h2>PET 7 - 2º Ano</h2>
+</header>
+<div class="radio"><h2>Rádio 24 horas</h2><p>Porque nem só de pão se vive o homem.</p><audio controls><source src="https://air.radiorecord.ru:805/bighits_320" type="audio/mpeg"></audio></div>
+
+
+<div class="divisor_semanas">
+  <div id="container_header" class="container_header">
+  <h2>Disciplinas</h2>
+  <i class="fas fa-bars" id="barra_menu"></i>
+  <div class="clear"></div>
+</div><!--container_header-->
+</div><!--divisor_semanas-->
+
+
+<div id="container_button_desktop" class="container_button_desktop">
+<button  onclick="requisicaoPor()">Português</button>
+
+
+<button onclick="requisicaoGeo()">Geografia</button>
+
+<button onclick="requisicaoMat()">Matemática</button>
+
+<button onclick="requisicaoIng()">Inglês</button>
+
+<button onclick="requisicaoHis()">História</button>
+
+<button onclick="requisicaoFil()">Filosofia</button>
+
+<button onclick="requisicaoBio()">Biologia</button>
+
+<button onclick="requisicaoEdF()">Educação Física</button>
+
+<button onclick="requisicaoArt()">Artes</button>
+
+<button onclick="requisicaoFis()">Física</button>
+
+<button onclick="requisicaoQui()">Química</button>
+
+ </div><!--container-button-->
+ 
+
+
+<div id="container">
+</div>
+
+
+
+</div><!--fonte-->
+<nav>
+  <div class="button" onclick="toggleTime()">
+    <div class="stop" id="bolinha"> 
+    </div><!--bolinha-->
+  </div><!--button-->
+</nav>
+  <script src="https://kit.fontawesome.com/71f7a810a5.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/redir.js"></script>
+  <script type="text/javascript" src="js/noite_dia.js"></script>
+
+ </body>
+</html>
